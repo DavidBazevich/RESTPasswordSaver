@@ -20,8 +20,8 @@ public class WebService implements IWebsiteService{
     }
 
     @Override
-    public Website saveWebsite(Website website) {
-        return websitesRepository.save(website);
+    public void saveWebsite(Website website) {
+        websitesRepository.save(website);
     }
 
     @Override

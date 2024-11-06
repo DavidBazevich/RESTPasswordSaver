@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface IWebsiteService {
     List<Website> findAllSites();
-    Website saveWebsite(Website website);
+    void saveWebsite(Website website);
     Website findByName(String name);
     Website updateWebsite(Website website);
     void deleteWebsite(String name);
