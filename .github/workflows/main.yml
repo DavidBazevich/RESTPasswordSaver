@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: test
         run: mvn test -X
-        working-directory: .
+        working-directory: ..
